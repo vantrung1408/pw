@@ -6,7 +6,7 @@
 	.avatar-mobile-frame{
 		display: block;
 		padding: 0px;
-		background-image: url("/Contents/03_Images/Avatar_md.png");
+		background-image: url("pw/Contents/03_Images/Avatar_md.png");
 	}
 
 	code.label-updated-date{
@@ -177,7 +177,7 @@
 	}
 
 	div.litte-avatar-frame{
-		background-image: url('/Contents/03_Images/Avatar_xs_haft.png');
+		background-image: url('pw/Contents/03_Images/Avatar_xs_haft.png');
 
 	}
 

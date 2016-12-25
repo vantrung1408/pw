@@ -7,7 +7,7 @@ body, html{
 }
 
 body{
-	background-image: url('/Contents/03_Images/bg.jpg');
+	background-image: url('pw/Contents/03_Images/bg.jpg');
 	background-attachment: fixed;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
@@ -153,7 +153,7 @@ div.info-frame table tbody tr:hover{
 	max-width: 660px;
 	padding: 0px;
 	float: right;
-	background-image: url("/Contents/03_Images/Avatar.png");
+	background-image: url("pw/Contents/03_Images/Avatar.png");
 }
 
 .avatar-mobile-frame,
@@ -207,7 +207,7 @@ div.info-frame table tbody tr:hover{
 	height: 64px;
 	width: 64px;
 	display: inline-block;
-	background-image: url("/Contents/03_Images/IconPack_wh.png");
+	background-image: url("pw/Contents/03_Images/IconPack_wh.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-right: 10px;
@@ -350,7 +350,7 @@ div.tl-bar{
 }
 
 div.litte-avatar-frame{
-	background-image: url('/Contents/03_Images/Avatar_xs.png');
+	background-image: url('pw/Contents/03_Images/Avatar_xs.png');
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	background-size: auto 100%;
