@@ -1,0 +1,197 @@
+@media screen and (max-width: 991px){
+	.avatar-frame{
+		display: none;
+	}
+
+	.avatar-mobile-frame{
+		display: block;
+		padding: 0px;
+		background-image: url("/Contents/03_Images/Avatar_md.png");
+	}
+
+	code.label-updated-date{
+		right: calc(100% - 147px);
+		border-radius: 0px 0px 4px 0px;
+	}
+
+	.header-wrapper{
+		display: flex;
+		align-items: center;
+		margin-top: 20px;
+	}
+
+	#table-target tbody tr td:first-child{
+		
+	}
+}
+
+@media screen and (max-width: 768px){
+	body{
+		background-size: auto 100%;
+	}
+
+	div.info-frame{
+		padding: 15px 0px 15px 0px !important;
+	}
+
+	div.frame .label-name {
+		padding-left: 20px;
+		font-size: 20px;
+		margin: 30px 0px 10px 0px;
+	}
+
+	div.frame .label-name .label-nickname{
+		font-size: 15px;
+	}
+
+	.label-updated-date{
+		display: none;
+	}
+
+	div.frame .label-title{
+		font-size: 15px;
+		margin: 10px 0px 5px 20px;
+		text-align: center;
+	}
+
+	.icon-title{
+		height: 32px;
+		width: 32px;
+		margin-right: 5px;
+	}
+
+	.info-wrapper{
+		width: 100%;
+	}
+
+	div.info-frame p, div.info-frame table{
+		font-size: 14px;
+	}
+
+	div.info-frame table tbody tr td:first-child{
+		width: 130px;
+	}
+
+	.icon-skill{
+		background-position: 0px -32px;
+	}
+
+	.icon-timeline{
+		background-position: 0px -64px;
+	}
+
+	.icon-target{
+		background-position: 0px -96px;
+	}
+
+	.icon-quote{
+		background-position: 0px -128px;
+	}
+
+	table{
+		border: none !important;
+		margin-bottom: 0px !important;
+	}
+
+	.quotes-frame{
+		
+	}
+
+	.quotes-frame .quotes-content{
+		font-size: 14px;
+	}
+
+	.quotes-frame .quotes-author{
+		margin-right: 20px;
+	}
+
+	div.litte-avatar-frame{
+		max-width: 150px;
+		max-height: 650px;
+	}
+
+	.quotes-wrapper .col-xs-8{
+		min-width: calc(100% - 150px) !important;
+	}
+
+	.tl-bar{
+		width: 25px !important;
+		margin-top: 13px;
+	}
+
+	#tl>div.row>div:first-child{
+		text-align: left;
+	}
+
+	#tl>div.row>div{
+		min-height: auto;
+		padding-left: 0px;
+		padding-right: 15px !important;
+	}
+
+	.tl-timer,
+	#tl span.glyphicon{
+		display: none;
+	}
+
+	#tl>div.row>div:last-child{
+		padding-left: 0px;
+	}
+
+	#tl>div.row>div:last-child .tl-info,
+	#tl>div.row>div:first-child .tl-info{
+		margin-left: 25px !important;
+		margin-right: 0px !important;
+		display: none;
+	}
+
+	.label-copyright{
+		font-size: 12px;
+		padding: 0 10px;
+	}
+
+	i.glyphicon{
+		font-size: 20px;
+    	margin-right: 15px;
+    	background-color: #5bc0de;
+	    padding: 10px;
+    	border-radius: 20px;
+    	margin-left: 5px;
+	}
+
+	i.glyphicon + strong{
+		font-size: 14px;
+	}
+
+	.tl-content{
+		margin-top: 5px !important;
+		margin-left: 25px !important;
+	}
+
+	#tl>div.row>div:first-child p.tl-content:hover{
+		background: linear-gradient(to right, rgba(0,0,0,0.3) , rgba(0,0,0,0.0));
+	}
+
+	#tl{
+		padding-top: 5px !important;
+	}
+
+	div.litte-avatar-frame{
+		background-image: url('/Contents/03_Images/Avatar_xs_haft.png');
+
+	}
+
+	div.litte-avatar-frame img:first-child{
+		display: none !important;
+	}
+
+	div.litte-avatar-frame img:last-child{
+		display: inline-block !important;
+	}
+}
+
+@media screen and (max-width: 400px){
+	div.frame .label-title{
+		text-align: left;
+	}
+}
