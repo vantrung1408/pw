@@ -35,7 +35,9 @@ function calAvatarPosition(){
 
 	if($(window).width() > 768)
 	{
-		$('div.avatar-frame').css('margin-top', $('div.info-wrapper').outerHeight() - $('div.avatar-frame').outerHeight());
+		setInterval(function(){
+			$('div.avatar-frame').css('margin-top', $('div.info-wrapper').outerHeight() - $('div.avatar-frame').outerHeight());
+		}, 200);
 	}
 	else
 	{
